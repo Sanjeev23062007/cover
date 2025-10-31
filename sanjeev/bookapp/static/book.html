@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Hack - Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Georgia", serif;
+    }
+
+    .book-cover {
+      position: relative;
+      width: 380px;
+      height: 580px;
+      background: linear-gradient(135deg, #0c2340, #3b0a45);
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      color: #fff;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 34px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 120px;
+      padding: 0 15px;
+      line-height: 1.2;
+      text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #ddd;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .author-section {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .author-section img {
+      width: 100px;
+      height: 130px;
+      border-radius: 8px;
+      border: 2px solid #fff;
+      object-fit: cover;
+    }
+
+    .author-name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #f5f5f5;
+      max-width: 180px;
+      line-height: 1.2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="book-cover">
+    <div class="title">Life Hacks</div>
+    <div class="subtitle">Unlocking Secrets of Success</div>
+
+    <div class="author-section">
+      <img src="myphoto.jpg" alt="Author Photo">
+      <div class="author-name">Written by Sanjeev A</div>
+    </div>
+  </div>
+
+</body>
+</html>
